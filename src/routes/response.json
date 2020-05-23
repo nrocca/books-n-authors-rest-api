@@ -1,0 +1,14 @@
+{
+    "formatErr": {"ERROR!":"Please check input format"},
+    "authorExErr":{"ERROR!":"AuthorId already exists! Try sending a new one."},
+    "authorIdErr":{"ERROR!":"No author with such Id!"},
+    "authorPosted":{"OK!":"Author added"},
+    "authorModified":{"OK!":"Author mofied"},
+    "authorDeleted":{"OK!":"Author deleted"},
+    "bookIdErr":{"ERROR!":"No book with such Id!"},
+    "bookExErr":{"ERROR!":"BookId already exists! Try sending a new one."},
+    "bookPosted":{"OK!":"Book added"},
+    "bookModified":{"OK!":"Book mofied"},
+    "bookDeleted":{"OK!":"Book deleted"}
+
+}
