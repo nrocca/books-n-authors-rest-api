@@ -1,14 +1,17 @@
 [
 	{ 
         "id": 1, 
-        "name": "J. K. Rowling" 
+        "name": "J. K.",
+        "lastname":"Rowling"
     },
 	{ 
         "id": 2, 
-        "name": "J. R. R. Tolkien" 
+        "name": "J. R. R.",
+        "lastname":"Tolkien"
     },
 	{ 
         "id": 3, 
-        "name": "Brent Weeks" 
+        "name": "Brent",
+        "lastname":"Weeks" 
     }
 ]

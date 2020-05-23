@@ -29,9 +29,10 @@ router.put('/authors/:id',(req,res)=>{
     if(index==-1){
         res.status(400).json(err.authorIdErr);
     }else {
-    const name=req.body.name;
-    if(name){
+    const {name,lastname}=req.body;
+    if(name&&lastname){
         authors[index].name=name;
+        authors[index].lastname=lastname;
         res.json(err.authorModified);
     } else {res.status(400).json(err.formatErr);}
     }

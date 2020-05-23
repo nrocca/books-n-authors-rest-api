@@ -27,7 +27,7 @@ router.get('/books',(req,res)=>{
         tempBook.id=books[i].id;
         tempBook.name=books[i].name;
         tempBook.authorId=books[i].authorId;
-        tempBook.author= (index!=-1)?authors[index].name:"No author with that Id yet";
+        tempBook.author= (index!=-1)?authors[index].name+' '+authors[index].lastname:"No author with that Id yet";
         bookData.push(tempBook);
     }
     res.json(bookData);
